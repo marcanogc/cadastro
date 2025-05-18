@@ -17,7 +17,7 @@ const ListaPessoas = ({ dados, onReset }) => {
             cursor: 'pointer'
           }}
         >
-          Resetar Todar
+          Resetar Todo
         </button>
          <br />
         <h2 style={{ margin: 0 }}>Pessoas Cadastradas</h2>
