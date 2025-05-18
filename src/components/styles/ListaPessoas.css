@@ -1,0 +1,7 @@
+.lista-pessoas {
+  margin: 30px auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
