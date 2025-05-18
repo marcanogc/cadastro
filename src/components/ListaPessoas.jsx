@@ -17,10 +17,10 @@ const ListaPessoas = ({ dados, onReset }) => {
             cursor: 'pointer'
           }}
         >
-          Resetear Todo
+          Resetar Todar
         </button>
          <br />
-        <h2 style={{ margin: 0 }}>Pessoas Registradas</h2>
+        <h2 style={{ margin: 0 }}>Pessoas Cadastradas</h2>
       </div>
       
       {dados.length > 0 ? (
@@ -30,7 +30,7 @@ const ListaPessoas = ({ dados, onReset }) => {
           ))}
         </div>
       ) : (
-        <p style={{ textAlign: 'center', color: '#666' }}>No hay registros</p>
+        <p style={{ textAlign: 'center', color: '#666' }}>Nenhum registro</p>
       )}
     </div>
   );
