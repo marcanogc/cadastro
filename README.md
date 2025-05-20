@@ -20,7 +20,7 @@ Aplicação React criada com Create React App (CRA), utilizando componentes func
 
 ## 📁 Estrutura de Pastas
 ```
-```
+```text
 src/
 ├── api/
 │   ├── cepApi.js
