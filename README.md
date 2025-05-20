@@ -20,11 +20,11 @@ Aplicação React criada com Create React App (CRA), utilizando componentes func
 
 ## 📁 Estrutura de Pastas
 ```
-src/├── api/│ 
+src/
+├── api/│ 
 ├── cepApi.js
 │ └── cpfApi.js
 │├── components/
-│ ├── styles/
 │ │ ├── CampoInput.jsx
 │ │ ├── ContatoFields.jsx
 │ │ ├── EnderecoFields.jsx
@@ -32,6 +32,7 @@ src/├── api/│
 │ │ ├── ListaPessoas.jsx
 │ │ ├── PessoaFields.jsx
 │ │ └── PessoaItem.jsx
+│ ├── styles/
 │├── config/
 │ └── cpfApi.js
 ├── data/ # (caso tenha dados simulados)
