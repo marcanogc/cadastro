@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4743dcec-d554-4e99-a531-4a0a26d21229)# Cadastro de Pessoas - React com Hooks
+# Cadastro de Pessoas - React com Hooks
 
 Aplicação React criada com Create React App (CRA), utilizando componentes funcionais com Hooks para realizar o cadastro de pessoas.
 
@@ -75,6 +75,8 @@ npm start
 Certifique-se de que o arquivo .env não seja enviado ao GitHub. O mesmo está listado no .gitignore para evitar vazamentos de chaves.
 
 📷 Demonstração
-![image](https://github.com/user-attachments/assets/f767ad1d-d8dd-40a5-ad5e-aaba3bfbd5e0)
-
 ```
+![image](https://github.com/user-attachments/assets/917359ae-5c08-429c-ae2c-e3d41ca9f796)
+
+
+
