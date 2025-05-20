@@ -74,8 +74,10 @@ npm start
 🚫 Aviso
 Certifique-se de que o arquivo .env não seja enviado ao GitHub. O mesmo está listado no .gitignore para evitar vazamentos de chaves.
 
-📷 Demonstração
 ```
+
+📷 Demonstração
+
 ![Demonstração](https://github.com/user-attachments/assets/f2d37bc3-65cd-4f6a-8b5d-f56f20afed8c)
 
 
