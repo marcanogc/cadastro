@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Cadastro de Pessoas - React com Hooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação React criada com Create React App (CRA), utilizando componentes funcionais com Hooks para realizar o cadastro de pessoas.
 
-## Available Scripts
+## ✨ Funcionalidades
 
-In the project directory, you can run:
+- Cadastro de pessoas com os campos: nome, sobrenome, idade, e-mail, telefone, CPF e endereço completo.
+- Máscaras de entrada para CPF, telefone e CEP.
+- Preenchimento automático de endereço via API do [ViaCEP](https://viacep.com.br/).
+- Validação de CPF usando a API pública do [CpfHub.io](https://www.cpfhub.io/) *(chave deve ser configurada no `.env`)*.
+- Separação dos componentes por responsabilidade.
 
-### `npm start`
+## 🛠️ Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React + Hooks
+- Axios
+- Expressões Regulares (Regex)
+- API ViaCEP (CEP)
+- API CPFHub.io (validação de CPF)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Estrutura de Pastas
 
-### `npm test`
+src/
+├── api/ # Integração com APIs externas (CEP, CPF)
+├── components/ # Componentes reutilizáveis do formulário
+│ ├── styles/ # Estilização separada por componente
+├── config/ # Configurações de integração (ex: cpfApi.js)
+├── data/ # Dados simulados (se aplicável)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 📦 Instalação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone o repositório:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+git clone https://github.com/marcanogc/cadastro.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Instale as dependências:
 
-### `npm run eject`
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Crie um arquivo .env na raiz do projeto:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+REACT_APP_CPF_API_KEY=YOUR_API_KEY_AQUI
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Inicie o projeto:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
 
-## Learn More
+🚫 Aviso
+Certifique-se de que o arquivo .env não seja enviado ao GitHub. O mesmo está listado no .gitignore para evitar vazamentos de chaves.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📷 Demonstração
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
