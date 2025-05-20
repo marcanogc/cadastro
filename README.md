@@ -76,7 +76,8 @@ Certifique-se de que o arquivo .env não seja enviado ao GitHub. O mesmo está l
 
 📷 Demonstração
 ```
-![image](https://github.com/user-attachments/assets/917359ae-5c08-429c-ae2c-e3d41ca9f796)
+![Demonstração](https://github.com/user-attachments/assets/f2d37bc3-65cd-4f6a-8b5d-f56f20afed8c)
+
 
 
 
