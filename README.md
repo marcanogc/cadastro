@@ -20,7 +20,7 @@ Aplicação React criada com Create React App (CRA), utilizando componentes func
 
 ## 📁 Estrutura de Pastas
 ```
-```text
+```
 src/
 ├── api/
 │   ├── cepApi.js
@@ -71,10 +71,11 @@ Inicie o projeto:
 
 npm start
 
-🚫 Aviso
-Certifique-se de que o arquivo .env não seja enviado ao GitHub. O mesmo está listado no .gitignore para evitar vazamentos de chaves.
-
 ```
+
+🚫 Aviso
+
+Certifique-se de que o arquivo .env não seja enviado ao GitHub. O mesmo está listado no .gitignore para evitar vazamentos de chaves.
 
 📷 Demonstração
 
