@@ -20,12 +20,26 @@ Aplicação React criada com Create React App (CRA), utilizando componentes func
 
 ## 📁 Estrutura de Pastas
 
-src/
-├── api/ # Integração com APIs externas (CEP, CPF)
-├── components/ # Componentes reutilizáveis do formulário
-│ ├── styles/ # Estilização separada por componente
-├── config/ # Configurações de integração (ex: cpfApi.js)
-├── data/ # Dados simulados (se aplicável)
+src/├── api/│ 
+├── cepApi.js
+│ └── cpfApi.js
+│├── components/
+│ ├── styles/
+│ │ ├── CampoInput.jsx
+│ │ ├── ContatoFields.jsx
+│ │ ├── EnderecoFields.jsx
+│ │ ├── FormPessoa.jsx
+│ │ ├── ListaPessoas.jsx
+│ │ ├── PessoaFields.jsx
+│ │ └── PessoaItem.jsx
+│├── config/
+│ └── cpfApi.js
+├── data/ # (caso tenha dados simulados)
+├── App.css
+├── App.jsx
+├── App.test.js
+├── index.css
+├── index.js
 
 
 ## 📦 Instalação
