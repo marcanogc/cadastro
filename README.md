@@ -19,7 +19,7 @@ Aplicação React criada com Create React App (CRA), utilizando componentes func
 - API CPFHub.io (validação de CPF)
 
 ## 📁 Estrutura de Pastas
-
+```
 src/├── api/│ 
 ├── cepApi.js
 │ └── cpfApi.js
@@ -40,7 +40,7 @@ src/├── api/│
 ├── App.test.js
 ├── index.css
 ├── index.js
-
+```
 
 ## 📦 Instalação
 
